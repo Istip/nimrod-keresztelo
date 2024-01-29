@@ -12,7 +12,6 @@ const Card = () => {
           követő ebédre. Nagyon boldogak lennénk, ha velünk ünnepelnétek ezen a
           jeles napon.
         </p>
-
         <p className="font-bold text-stone-600">2022.05.22 (szerda), 11:00</p>
       </main>
     </div>
