@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Rethink_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Rethink_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nimrod Kereszteloje",
-  description: "Nimrod Kereszteloje",
+  title: "Nimród Keresztelője",
+  description: "Nimród Keresztelője",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="hu">
-      <body className={inter.className}>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }
