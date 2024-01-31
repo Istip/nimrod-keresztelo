@@ -1,6 +1,9 @@
 import React from "react";
 
 const Card = () => {
+  // IMPORTANT
+  // Card tilt animation example: https://codesandbox.io/p/sandbox/heuristic-pine-3gomhs?file=%2FApp.js
+
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <main className="p-8 border rounded-3xl bg-stone-200 max-w-screen-md mx-4 flex flex-col items-center justify-center gap-4">
