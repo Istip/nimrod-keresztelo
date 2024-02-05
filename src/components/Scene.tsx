@@ -43,7 +43,7 @@ const Scene = () => {
             color="paleTurquoise"
           />
 
-          <Physics gravity={[0, 0.05, 0]} debug>
+          <Physics gravity={[0, 0.05, 0]}>
             {balloons.map((balloon, index) => (
               <Baloon
                 key={index}
