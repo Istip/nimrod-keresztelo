@@ -1,10 +1,14 @@
 export const Front = () => (
   <div className="rounded-xl flip-card-front p-4 flex flex-col items-center justify-center gap-6 bg-stone-100">
     <div className="flex flex-col items-center justify-center gap-3">
-      <h1 className="font-black text-stone-700 text-6xl font-title">Nimród</h1>
-      <div className="h-[2px] bg-gold w-[20%]" />
-      <p className="text-xl">keresztelője</p>
-      <p className="font-light mt-4 text-gold font-title text-xl">
+      <div>
+        <h1 className="font-black text-stone-700 text-6xl font-title">
+          Nimród
+        </h1>
+        {/* <div className="h-[2px] bg-gold w-[20%]" /> */}
+        <p className="">keresztelője</p>
+      </div>
+      <p className="font-light mt-4 bg-gold px-2 rounded-full text-stone-700 font-title text-xl">
         ~ 2024.05.25 (szombat) ~
       </p>
     </div>
