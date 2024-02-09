@@ -12,6 +12,8 @@ export const Back = () => (
     </ul>
     <div className="h-[2px] bg-gold w-[30%] my-4" />
     <Outro />
+
+    <div className="block md:hidden text-stone-400 mt-4">Kattints mögém</div>
   </div>
 );
 
@@ -54,7 +56,7 @@ const Event = (event: {
 
       <div className="text-left">
         <p className="font-bold text-lg">{event.name}</p>
-        <p className="text-stone-500">{event.location}</p>
+        <p className="text-stone-500 text-sm">{event.location}</p>
       </div>
     </div>
   </li>
