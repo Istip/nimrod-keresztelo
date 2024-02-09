@@ -4,13 +4,13 @@ export const events = [
     name: "Templomi szertartás",
     time: "11:00",
     location: "Bikafalva, Református templom, Fő utca 1.",
-    icon: "💒",
+    icon: "church",
   },
   {
     id: 2,
     name: "Ebéd és ünnepség",
     time: "13:00",
     location: "Bögöz, Erdő Panzió, Fő utca 16.",
-    icon: "🍽️",
+    icon: "meal",
   },
 ];
