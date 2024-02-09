@@ -24,12 +24,14 @@ const Card = () => {
         <h1 className="font-bold text-stone-700 text-2xl md:text-4xl">
           Nimród Keresztelője
         </h1>
+        <p className="font-bold text-orange-500">2022.05.22 (szerda)</p>
         <p className="text-xs md:text-lg">
           Szeretettel meghívunk a kisfiunk, Nimród keresztelőjére és az azt
           követő ebédre. Nagyon boldogak lennénk, ha velünk ünnepelnétek ezen a
           jeles napon.
         </p>
-        <p className="font-bold text-orange-500">2022.05.22 (szerda), 11:00</p>
+
+        <div className="border-dashed border border-orange-500 w-full" />
 
         <ul className="w-full space-y-2">
           {events.map((event) => (
