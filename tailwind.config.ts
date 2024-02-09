@@ -13,6 +13,9 @@ const config: Config = {
         default: ["var(--font-sacramento)"],
         title: ["var(--font-leckerli)"],
       },
+      colors: {
+        gold: "#FFB300",
+      },
     },
   },
   plugins: [],
