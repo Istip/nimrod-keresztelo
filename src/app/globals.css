@@ -46,10 +46,6 @@ body {
   backface-visibility: hidden;
 }
 
-.flip-card-front {
-  color: black;
-}
-
 .flip-card-back {
   transform: rotateY(180deg);
 }
