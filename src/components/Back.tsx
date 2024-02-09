@@ -27,14 +27,14 @@ const Intro = () => (
 
 const Outro = () => (
   <p>
-    Várjuk visszajelzésed Messengeren, vagy telefonon a{" "}
+    Várjuk visszajelzésed Messengeren, vagy a{" "}
     <a
       className="underline underline-offset-4 font-bold decoration-sky-500"
       href="tel:0743641811"
     >
       321-678-952
     </a>{" "}
-    számon.
+    telefonszámon.
   </p>
 );
 
@@ -54,7 +54,7 @@ const Event = (event: {
 
       <div className="text-left">
         <p className="font-bold text-lg">{event.name}</p>
-        <p className="text-stone-400">{event.location}</p>
+        <p className="text-stone-500">{event.location}</p>
       </div>
     </div>
   </li>
