@@ -1,13 +1,23 @@
 import type { Metadata } from "next";
-import { Rethink_Sans } from "next/font/google";
+import { Dekko, Leckerli_One } from "next/font/google";
 import "./globals.css";
-
-const font = Rethink_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Nimród Keresztelője",
   description: "Nimród Keresztelője",
 };
+
+const sacramento = Dekko({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-sacramento",
+});
+
+const leckerli = Leckerli_One({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-leckerli",
+});
 
 export default function RootLayout({
   children,
@@ -16,7 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="hu" suppressHydrationWarning>
-      <body className={font.className}>{children}</body>
+      <body className={`${sacramento.variable} ${leckerli.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

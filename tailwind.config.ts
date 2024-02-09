@@ -9,6 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {},
+      fontFamily: {
+        default: ["var(--font-sacramento)"],
+        title: ["var(--font-leckerli)"],
+      },
     },
   },
   plugins: [],

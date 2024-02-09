@@ -6,6 +6,14 @@ body {
   background-color: #5a7a48;
 }
 
+.default {
+  font-family: var(--font-leckerli);
+}
+
+.title {
+  font-family: var(--font-sacramento);
+}
+
 .flip-card {
   background-color: transparent;
   width: 320px;
