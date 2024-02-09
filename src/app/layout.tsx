@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Dekko, Leckerli_One } from "next/font/google";
+import { Grandstander, Nerko_One } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description: "Nimród Keresztelője",
 };
 
-const sacramento = Dekko({
+const sacramento = Grandstander({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-sacramento",
 });
 
-const leckerli = Leckerli_One({
+const leckerli = Nerko_One({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-leckerli",
@@ -32,3 +32,6 @@ export default function RootLayout({
     </html>
   );
 }
+
+// old default: Dekko
+// old title: Leckerli_One
