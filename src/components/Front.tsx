@@ -1,3 +1,5 @@
+import { Icon } from "./Icon";
+
 export const Front = () => (
   <div className="rounded-xl flip-card-front p-4 flex flex-col items-center justify-center gap-6 bg-stone-100">
     <div className="flex flex-col items-center justify-center gap-3">
@@ -16,5 +18,8 @@ export const Front = () => (
     <div className="aspect-square w-64 bg-stone-300 rounded-3xl" />
 
     <div className="block md:hidden text-stone-400">Kattints rám</div>
+    <div className="hidden md:block text-stone-400">
+      <Icon name="rotate" />
+    </div>
   </div>
 );
