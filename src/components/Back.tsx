@@ -14,6 +14,9 @@ export const Back = () => (
     <Outro />
 
     <div className="block md:hidden text-stone-400 mt-4">Kattints mögém</div>
+    <div className="hidden md:block text-stone-400 mt-6">
+      <Icon name="rotate" />
+    </div>
   </div>
 );
 
