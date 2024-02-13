@@ -16,14 +16,14 @@ export const Front = () => (
       </p>
     </div>
 
-    <div className="aspect-square relative w-64  bg-stone-300 rounded-3xl border border-stone-900">
+    <div className="aspect-square w-64 relative bg-stone-300 rounded-3xl border border-stone-900">
       <div className="aspect-content">
         <Image
           className="rounded-3xl"
           src="/nimi.jpg"
           alt="Nimród"
           width={600}
-          height={1800}
+          height={800}
         />
       </div>
     </div>
