@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Icon } from "./Icon";
 
 export const Front = () => (
@@ -15,7 +16,15 @@ export const Front = () => (
       </p>
     </div>
 
-    <div className="aspect-square w-64 bg-stone-300 rounded-3xl" />
+    <div className="aspect-square relative w-64 h-full bg-stone-300 rounded-3xl border border-stone-900">
+      <Image
+        src="/nimi.jpg"
+        alt="Nimród"
+        layout="fill"
+        objectFit="cover"
+        className="rounded-3xl"
+      />
+    </div>
 
     <div className="block md:hidden text-stone-400">Kattints rám</div>
     <div className="hidden md:block text-stone-400">
