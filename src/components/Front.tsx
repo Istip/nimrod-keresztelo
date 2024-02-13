@@ -16,14 +16,16 @@ export const Front = () => (
       </p>
     </div>
 
-    <div className="aspect-square relative w-64 h-full bg-stone-300 rounded-3xl border border-stone-900">
-      <Image
-        src="/nimi.jpg"
-        alt="Nimród"
-        layout="fill"
-        objectFit="cover"
-        className="rounded-3xl"
-      />
+    <div className="aspect-square relative w-64  bg-stone-300 rounded-3xl border border-stone-900">
+      <div className="aspect-content">
+        <Image
+          className="rounded-3xl"
+          src="/nimi.jpg"
+          alt="Nimród"
+          width={600}
+          height={1800}
+        />
+      </div>
     </div>
 
     <div className="block md:hidden text-stone-400">Kattints rám</div>
