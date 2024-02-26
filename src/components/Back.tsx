@@ -2,7 +2,7 @@ import { events } from "@/data/events";
 import { Icon } from "./Icon";
 
 export const Back = () => (
-  <div className="rounded-xl flip-card-back p-4 bg-stone-200 flex flex-col items-center justify-center">
+  <div className="rounded-xl flip-card-back p-4 bg-stone-200 flex flex-col items-center justify-center bg-back bg-cover">
     <Intro />
     <div className="h-[2px] bg-gold w-[30%] my-4" />
     <ul className="w-full space-y-2">
@@ -13,8 +13,8 @@ export const Back = () => (
     <div className="h-[2px] bg-gold w-[30%] my-4" />
     <Outro />
 
-    <div className="block md:hidden text-stone-400 mt-4">Kattints mögém</div>
-    <div className="hidden md:block text-stone-400 mt-6">
+    <div className="block md:hidden text-stone-950 mt-4">Kattints mögém</div>
+    <div className="hidden md:block text-stone-950 mt-6">
       <Icon name="rotate" />
     </div>
   </div>
