@@ -11,8 +11,8 @@ export const Front = () => (
         {/* <div className="h-[2px] bg-gold w-[20%]" /> */}
         <p className="">keresztelője</p>
       </div>
-      <p className="font-light mt-4 bg-gold px-2 rounded-full text-stone-700 font-title text-xl">
-        ~ 2024.05.25 (szombat) ~
+      <p className="font-light mt-4 bg-gold px-4 rounded-full text-stone-700 font-title text-xl">
+        2024.05.25 (szombat)
       </p>
     </div>
 
