@@ -8,7 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      backgroundImage: {
+        front: "url('/front.png')",
+        back: "url('/back.png')",
+      },
       fontFamily: {
         default: ["var(--font-sacramento)"],
         title: ["var(--font-leckerli)"],
