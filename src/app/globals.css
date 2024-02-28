@@ -16,10 +16,10 @@ body {
 
 .flip-card {
   background-color: transparent;
-  width: 320px;
-  height: 80vh;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  transform: rotate(-1.5deg);
+  width: 330px; /* from 320px to 330px */
+  height: 82vh; /* from 80vh to 82vh */
+  perspective: 1000px;
+  transform: rotate(-1deg);
 }
 
 .flip-card-inner {
@@ -31,12 +31,10 @@ body {
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
   position: absolute;
