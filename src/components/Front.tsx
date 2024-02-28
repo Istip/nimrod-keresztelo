@@ -2,7 +2,7 @@ import Image from "next/legacy/image";
 import { Icon } from "./Icon";
 
 export const Front = () => (
-  <div className="rounded-xl flip-card-front p-4 flex flex-col items-center justify-center gap-6 bg-stone-100 bg-front bg-cover">
+  <div className="rounded-xl flip-card-front p-4 flex flex-col items-center justify-center gap-6 bg-stone-100 bg-front bg-cover relative">
     <div className="flex flex-col items-center justify-center gap-3">
       <div>
         <h1 className="font-black text-stone-700 text-6xl font-title">
@@ -25,9 +25,11 @@ export const Front = () => (
       />
     </div>
 
-    <div className="block md:hidden text-stone-950">Kattints rám</div>
-    <div className="hidden md:block text-stone-950">
-      <Icon name="rotate" />
+    <div className="absolute bottom-4">
+      <div className="block md:hidden text-stone-950">Kattints rám</div>
+      <div className="hidden md:block text-stone-950">
+        <Icon name="rotate" />
+      </div>
     </div>
   </div>
 );
