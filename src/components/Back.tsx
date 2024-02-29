@@ -2,7 +2,7 @@ import { events } from "@/data/events";
 import { Icon } from "./Icon";
 
 export const Back = () => (
-  <div className="rounded-xl flip-card-back p-4 bg-stone-200 flex flex-col items-center justify-center bg-back bg-cover relative">
+  <div className="rounded-xl flip-card-back p-4 bg-stone-200 flex flex-col items-center justify-center bg-front bg-cover relative">
     <Intro />
     <div className="h-[2px] bg-gold w-[30%] my-4" />
     <ul className="w-full space-y-2">
