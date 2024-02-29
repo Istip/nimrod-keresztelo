@@ -4,13 +4,11 @@ import { Icon } from "./Icon";
 export const Back = () => (
   <div className="rounded-xl flip-card-back p-4 bg-stone-200 flex flex-col items-center justify-center bg-front bg-cover relative">
     <Intro />
-    <div className="h-[2px] bg-gold w-[30%] my-4" />
-    <ul className="w-full space-y-2">
+    <ul className="w-full space-y-2 my-6">
       {events.map((event) => (
         <Event key={event.id} {...event} />
       ))}
     </ul>
-    <div className="h-[2px] bg-gold w-[30%] my-4" />
     <Outro />
 
     <div className="absolute bottom-4">
@@ -28,7 +26,7 @@ const Intro = () => (
   <p>
     Szeretettel meghívunk a kisfiunk, <span className="font-bold">Nimród</span>{" "}
     keresztelőjére és az azt követő ebédre. Nagyon boldogak lennénk, ha velünk
-    ünnepelnétek ezen a jeles napon.
+    ünnepelnél a kedves családoddal, ezen a jeles napon.
   </p>
 );
 
