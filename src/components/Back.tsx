@@ -37,9 +37,9 @@ const Outro = () => (
     Várjuk visszajelzésed Messengeren, vagy a{" "}
     <a
       className="underline underline-offset-4 font-bold decoration-sky-500"
-      href="tel:0743641811"
+      href="tel:+3606204157184"
     >
-      321-678-952
+      06204157184
     </a>{" "}
     telefonszámon.
   </p>
