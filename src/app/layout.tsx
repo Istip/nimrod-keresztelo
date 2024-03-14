@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://nimrod-keresztelo.vercel.app/",
-    title: "NIMRÓD",
+    title: "Nimród Keresztelője",
     description: "Szeretettel meghívunk Nimród kisfiunk keresztelőjére.",
     siteName: "Nimród Keresztelője",
     images: [{ url: "/nimiarc.jpg" }],
