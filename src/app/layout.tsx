@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   description: "Szeretettel meghívunk Nimród kisfiunk keresztelőjére.",
   referrer: "origin-when-cross-origin",
   keywords: ["keresztelő", "meghívó", "Nimród"],
-  metadataBase: new URL("https://nimrod-keresztelo.vercel.app"),
+  metadataBase: new URL("https://nimrod-kereszteloje.vercel.app"),
   openGraph: {
     type: "website",
-    url: "https://nimrod-keresztelo.vercel.app/",
+    url: "https://nimrod-kereszteloje.vercel.app/",
     title: "Nimród Keresztelője",
     description: "Szeretettel meghívunk Nimród kisfiunk keresztelőjére.",
     siteName: "Nimród Keresztelője",
