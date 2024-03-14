@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Nimród Keresztelője",
-  description: "Szeretettelm meghívunk Nimród kisfiunk keresztelőjére.",
+  description: "Szeretettel meghívunk Nimród kisfiunk keresztelőjére.",
   referrer: "origin-when-cross-origin",
   keywords: ["keresztelő", "meghívó", "Nimród"],
   metadataBase: new URL("https://nimrod-keresztelo.vercel.app"),
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://nimrod-keresztelo.vercel.app/",
     title: "NIMRÓD",
-    description: "Szeretettelm meghívunk Nimród kisfiunk keresztelőjére.",
+    description: "Szeretettel meghívunk Nimród kisfiunk keresztelőjére.",
     siteName: "Nimród Keresztelője",
     images: [{ url: "/nimiarc.jpg" }],
   },
